@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="banner"><p><button id="ham"><i class="fa-solid fa-bars"></i></button><i class="fa-solid fa-cloud-rain"></i> Weather.WeB </p></div>
+    <div id="nav">
+        <a id="home"href="">HOME</a>
+        <a href="new.html" id="goForecast">FORECAST</a>
+        <a href="">MAP</a>
+        <a href="">NEWS</a>
+        <a href="login.html">LOGIN/Sign-Up</a>
+    </div>
+    <div id="search">
+        <input type="text" name="cityname" id="city" placeholder="enter city">
+        <button type="submit" name="c" id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div id="msg"><h1>PLEASE ENTER VALID CITY NAME!!</h1></div>
+    <div id="climate">
+        <div id="loc"></div>
+        <div id="time"></div>
+        <div id="type"></div>
+        <div id="img">
+            <img src="" id="icon">
+            <div id="info">
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="mob">
+        <div id="mloc"></div>
+        <div id="mtime"></div>
+        <div id="mtype"></div>
+        <div id="mimg"><img src="" id="micon"></div>
+        <div id="minfo">
+            <div class="box"><p id="temp" class="value"></p><p class="pic"><i class="fa-solid fa-temperature-half"></i></p><p>Temperature</p></div>
+            <div class="box"><p id="feels"class="value"></p><p class="pic"><i class="fa-solid fa-temperature-half"></i></p><p>Feels Like</p></div>
+            <div class="box"><p id="hum"class="value"></p><p class="pic"><i class="fa-solid fa-water"></i></p><p>Humidity</p></div>
+            <div class="box"><p id="wind"class="value"></p><p class="pic"><i class="fa-solid fa-wind"></i></p><p>Wind Speed</p></div>
+            <div class="box"><p id="dew"class="value"></p><p class="pic"><i class="fa-solid fa-droplet"></i></p><p>Dew Point</p></div>
+        </div>
+    </div>
+    <script src="new.js"></script>
+</body>
+</html>
